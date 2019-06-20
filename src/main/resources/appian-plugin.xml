@@ -1,0 +1,17 @@
+<appian-plugin name="My Corp Connected System - Hello Appian" key="com.mycorp.helloworld">
+
+  <plugin-info>
+    <description>Discovery Integration Test</description>
+    <vendor name="I Am App" url="http://www.mycorp.com"/>
+    <version>1.0.0.0</version>
+    <application-version min="7.6.0.4"/>
+  </plugin-info>
+
+  <connected-system-template key="HelloAppianConnectedSystem" name="HelloAppianConnectedSystem"
+                             class="com.mycorp.helloappian.templates.HelloAppianCSP">
+
+    <integration-template key="HelloAppianIntegrationTemplate" name="HelloAppianIntegrationTemplate"
+                          class="com.mycorp.helloappian.templates.HelloAppianIntegrationTemplate" />
+
+  </connected-system-template>
+</appian-plugin>
